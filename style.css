@@ -72,7 +72,7 @@ input[type='checkbox']{
 }
 button{
    width: 100%;
-   margin-bottom: 50px;
+   margin-bottom: 40px;
    margin-top: 20px;
    border: none;
    border-radius: 20px;
@@ -92,6 +92,8 @@ button:hover{
     display: flex;
     align-items: center;
     flex-direction: row;
+    
+    
 }
 a{
     text-decoration: none;
@@ -103,9 +105,16 @@ a{
     border-radius: 100px;
     margin: 10px 10px;
     color: black;
-
+    
 }
 
 a:hover{
     background-color: #eee;
+}
+
+.aa{
+    flex: 1;
+}
+.bb{
+    flex: 1;
 }

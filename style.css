@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    padding: 100px;
+    background: rgb(63,94,251);
+    background: -moz-radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+
+}
+.container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    height: 80vh;
+    width: 60vh;
+    margin: 0 auto;
+    border-radius: 20px;
+    justify-content: center;
+}
+
+.login-header{
+    padding-bottom: 40px;
+    padding-top: 10px;
+}
+
+.login-header p{
+    padding-top: 20px;
+    opacity: 80%;
+}
+
+input[type='text'],[type='password']{
+    border: 1px solid black;
+    width: 100%;
+    height: 45px;
+    padding: 0 4rem;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.form-item{
+    padding-bottom: 40px;
+    
+}
+.form-item label{
+    display: inline-block;
+    background-color: white;
+    margin-bottom: 10px;
+    position: absolute;
+    padding: 0 5px;
+    transform: translate(25px, -10px);
+    font-size: 14px;
+}
+.checkbox{
+    padding-bottom: 20px;
+    display: flex;
+    gap: 7px;
+}
+
+input[type='checkbox']{
+    width: 20px;
+    height: 20px;
+}
+button{
+   width: 100%;
+   margin-bottom: 50px;
+   margin-top: 20px;
+   border: none;
+   border-radius: 20px;
+   padding: 1rem;
+   font-size: 18px;
+   text-transform: uppercase;
+   cursor: pointer;
+   background: rgb(63,94,251);
+   color: white;
+}
+button:hover{
+   background: rgba(252,70,107,1);
+   transition: all ease-in-out .3s;
+}
+
+.login-item{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+a{
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    gap: 15px;
+    padding: 6px 15px;
+    border: 1px solid black;
+    border-radius: 100px;
+    margin: 10px 10px;
+    color: black;
+
+}
+
+a:hover{
+    background-color: #eee;
+}
